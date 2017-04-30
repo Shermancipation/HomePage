@@ -1,0 +1,112 @@
+/*Global Settings*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#wrapper {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: 10px auto 0px auto;
+  background: #3366cc;
+}
+
+a{
+  color: white;
+  display: inline;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:hover{
+  color: black;
+  font-weight: bold;
+}
+
+.emphasis {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Header Settings*/
+
+header {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+header h1{
+  display: inline-block;
+  width: 100%;
+  font-family: 'Cinzel', serif;
+}
+
+header h2{
+  display: inline-block;
+  width: 100%;
+  font-family: 'Cinzel', serif;
+}
+
+/*NavBar Settings*/
+
+#navBar {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #669999;
+  text-align: center;
+  padding: 5px 0px;
+  outline: 1px solid white;
+}
+
+#navBar ul li{
+  display: inline;
+  list-style: none;
+  margin: 0 10px;
+}
+
+/*Main Content Settings*/
+
+#pageContainer {
+  display: block;
+  padding: 5px 0px 10px 0px;
+  width: 100%;
+  height: auto;
+  background: #3366cc;
+  text-align: center;
+}
+
+#mainImg {
+  display: inline-block;
+  width: 60%;
+  height: auto;
+  margin: 10px 0px;
+  border: 2px solid white;
+  -webkit-box-shadow: 10px 10px 220px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 220px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 220px 0px rgba(0,0,0,0.75);
+}
+
+
+
+/*Footer Settings*/
+
+footer {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #669999;
+  text-align: center;
+  padding: 5px 0px;
+  outline: 1px solid white;
+}
+
+footer img {
+  height: 40px;
+  width: 40px;
+}
